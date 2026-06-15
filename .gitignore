@@ -1,0 +1,22 @@
+# 忽略数据文件夹里的实际数据（如果数据很大）
+data/raw/*
+data/calibrated/*
+data/processed/*
+data/features/*
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 模型文件（.pkl 可能较大，可选择性忽略）
+*.pkl
+*.joblib
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 临时文件
+*.log
+*.tmp
